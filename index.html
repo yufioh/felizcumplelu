@@ -1,0 +1,75 @@
+<script src="https://kit.fontawesome.com/f936906ae0.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link href='http://fonts.googleapis.com/css?family=Codystar|Karla' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+
+
+<div class="card">
+    <div class="imgBox">
+        <div class="bark"></div>
+        <img src="lulii.png">
+    </div>
+    <div class="details">
+        <h4 class="color1">¡Feliz cumpleaños</h2>
+        <h4 class="color2 margin">a la más preciosa!</h3>
+        <p>Hola bebé linda,</p>
+        <p>Gracias a la vida por dejarme</p>
+        <p>pasar un año más contigo y seguir juntas.</p>
+        <p>Eres la mejor amiga que existe en el</p>
+        <p>mundo y me siento muy afortunada de</p>
+        <p>coincidir contigo, soy la más feliz.</p>
+        <p>Reuní a todas las chicas de K-On para</p>
+        <p>comer torta juntas.</p>
+        <p class="text-right">Te ama con todo su corazón,</p>
+        <p class="text-right">Di ♥</p>
+    </div>
+</div>
+
+
+
+    <div id="trees"><img src="bdcake.gif"></div>
+
+
+
+<div id="bottom">
+
+    <div id="musicplayer"><table><tr><td><div class="controls"><div class="play" style="display:inline-block"><i class="fas fa-play" onclick="play()"></i></div></div></td><td><div class="songtitle"><marquee scrollamount="10">ふわふわ時間 - Ho-Kago Tea Time</marquee></div></td></tr></table><audio id="music" src="fuwafuwatime.mp3"></audio> 
+    </div><script>
+    let player = document.getElementById("music");
+     
+    function play(){
+        player.play();
+        document.querySelector('.play').innerHTML = "<i class='fas fa-pause' onclick='pause()'></i>";
+    }
+     
+    function pause(){
+        player.pause();
+        document.querySelector('.play').innerHTML = "<i class='fas fa-play' onclick='play()'></i>";
+    }
+     
+    player.onended = function(){
+        document.querySelector('.play').innerHTML = "<i class='fas fa-play' onclick='play()'></i>";
+    }
+    </script>
+
+</div>
+
+<div id="rabbit"><img src="k-on.gif" class="rabbit"></div>
+
+
+<div id="cbox">
+
+    <div id="cboxtitle">FELIZ CUM</div>
+    
+    <div id="cboxdesc">
+    Hola, deja tu mensaje a Lu por su cumple!! (*＾▽＾)／ 
+        
+    </div>
+    
+    <!-- BEGIN CBOX - www.cbox.ws - v4.3 -->
+    <iframe src="https://www3.cbox.ws/box/?boxid=3520290&boxtag=pWYawY" width="190" height="300" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+    <!-- END CBOX -->
+    
+    </div>
+
